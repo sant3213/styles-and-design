@@ -1,0 +1,48 @@
+/*
+    Styles /////----/////----/////----/////----/////----/////----/////----/////
+*/
+
+body {
+    margin: 0px;
+}
+
+img {
+    width: 110px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.header {
+    background: rgb(80, 58, 120);
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.nav ul li a:hover {
+    font-size: 20px;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-grid; /* inline will also work*/
+    margin-right: 10px;
+}
+
+/*
+    Grid system /////----/////----/////----/////----/////----/////----/////----/////
+*/
+
+.nav {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 200px;
+    margin: auto;
+    align-items: center;
+}

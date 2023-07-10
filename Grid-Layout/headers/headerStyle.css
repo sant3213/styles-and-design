@@ -1,0 +1,49 @@
+/*
+  Styles /////------/////------/////------/////------/////------/////------/////------
+*/
+
+.header {
+    background: deepskyblue;
+    overflow: hidden;
+}
+
+body {
+    margin: 0px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav img {
+    width: 100px;
+    height: auto;
+}
+
+.nav ul li a:hover {
+    color: #000;
+    background: #fff;
+}
+
+.nav ul li a {
+    text-decoration: none; /* Removes the line under letter */
+    color: #fff;
+    padding: 1.5rem;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+
+
+/*
+ Grid align /////------/////------/////------/////------/////------/////------/////------
+*/
+
+.nav {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-items: center;
+    width: 1100px;
+    margin: auto;
+}
+
