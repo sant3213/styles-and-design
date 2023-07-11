@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 100px 300px; /* top-bottom: 100px and righ-left: 300px*/
+    gap: 500px; /* Distance between the boxes*/
+}
+
+.item {
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+}
