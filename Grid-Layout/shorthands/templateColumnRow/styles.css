@@ -1,0 +1,40 @@
+body {
+    margin: 10px;
+}
+.grid-container {
+    border: solid 4px #000;
+    display: inline-grid;
+    grid: 6em 6em / 10em 6em 6em 6em;
+    /*  
+        grid-template-rows: 6em 6em;
+        grid-template-columns: 10em 6em 6em 6em; The equivalent is the grid property
+        grid: row row / column column column column
+    */
+}
+
+.items {
+    height: 100px;
+    width: 100px; /* If set to auto it will fill all the space according on the grid width*/
+    border-radius: 2%;
+    text-align: center;
+}
+
+.item-01 {
+  /*
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    It can be replaced with grid-column and grid-row 
+    */
+    /*
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    But this can also be replaced with grid-area
+    grid-area: row-start / column-start /row-end / column-end;
+    */
+    grid-area: 2 / 2 / 3 / 4;
+    color: white;
+    background-color: blue;
+}
+

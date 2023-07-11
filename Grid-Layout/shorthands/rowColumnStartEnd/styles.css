@@ -1,0 +1,53 @@
+body {
+    margin: 10px;
+}
+.grid-container {
+    border: solid 4px #000;
+    display: inline-grid;
+    grid: 6em 6em / 10em 6em 6em 6em;
+    /*  
+        grid-template-rows: 6em 6em;
+        grid-template-columns: 10em 6em 6em 6em; The equivalent is the grid property
+        grid: row row / column column column column
+    */
+}
+
+.items {
+    height: 100px;
+    width: 100px; /* If set to auto it will fill all the space according on the grid width*/
+    border-radius: 2%;
+    text-align: center;
+}
+
+.item-01 {
+    background-color: blue;
+}
+
+.item-02 {
+    background-color: red;
+}
+
+.item-03 {
+    background-color: aqua;
+}
+
+.item-04 {
+    background-color: rgb(238, 255, 0);
+}
+
+.item-05 {
+    background-color: rgb(138, 183, 240);
+}
+
+.item-06 {
+    background-color: rgb(0, 255, 166);
+}
+
+.item-07 {
+    background-color: rgb(0, 255, 64);
+}
+
+.item-08 {
+    background-color: rgb(255, 0, 251);
+}
+
